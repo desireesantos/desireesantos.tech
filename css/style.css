@@ -124,7 +124,12 @@ a:hover { color: var(--azul); }
 .artigo-corpo h2 { font-size: 30px; line-height: 1.25; color: var(--texto); margin: 48px 0 16px; letter-spacing: -.5px; }
 .artigo-corpo blockquote { margin: 32px 0; padding: 4px 0 4px 24px; border-left: 3px solid var(--azul); font-size: 22px; color: var(--texto); }
 .artigo-corpo a { color: var(--azul); text-decoration: underline; }
-.voltar { display: inline-block; margin-bottom: 8px; color: var(--azul-claro); font-size: 15px; }
+.artigo-corpo img { margin: 24px auto; border-radius: 12px; }
+.artigo-corpo .tabela { overflow-x: auto; margin: 32px 0; }
+.artigo-corpo table { width: 100%; border-collapse: collapse; font-size: 16px; line-height: 1.5; }
+.artigo-corpo th, .artigo-corpo td { text-align: left; padding: 12px 16px; border-bottom: 1px solid var(--linha); vertical-align: top; }
+.artigo-corpo th { color: var(--texto); background: var(--branco); }
+.voltar {display: inline-block; margin-bottom: 8px; color: var(--azul-claro); font-size: 15px; }
 
 @media (max-width: 640px) {
   .container { padding: 0 16px; }
