@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>[SEU NOME] · Liderança, Inovação e Tecnologia</title>
+  <meta name="description" content="[SEU NOME], [SEU CARGO]. Artigos sobre liderança, inovação e tecnologia.">
+  <meta property="og:title" content="[SEU NOME] · Liderança, Inovação e Tecnologia">
+  <meta property="og:description" content="Artigos sobre liderança, inovação e tecnologia.">
+  <meta property="og:image" content="img/foto-perfil.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="logo">[SEU NOME]</a>
+      <nav class="nav" aria-label="Principal">
+        <a href="#sobre">Sobre</a>
+        <a href="artigos.html">Artigos</a>
+        <a href="#pilares">Temas</a>
+        <a href="#contato">Contato</a>
+        <a href="#newsletter" class="btn btn-claro">Newsletter gratuita</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO: sua foto + posicionamento -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-foto">
+          <!-- Troque pela sua foto: img/foto-perfil.jpg (meio corpo, fundo neutro) -->
+          <img src="img/foto-perfil.svg" alt="Foto de [SEU NOME]">
+        </div>
+        <div class="hero-texto">
+          <div class="eyebrow">Liderança · Inovação · Tecnologia</div>
+          <h1>Construindo o futuro com pessoas e tecnologia.</h1>
+          <p>Sou [SEU NOME], [SEU CARGO] em [EMPRESA]. Escrevo sobre [TEMA 1], [TEMA 2] e o que aprendi liderando times de tecnologia.</p>
+          <form class="form-email" name="newsletter" method="POST" data-netlify="true">
+            <input type="hidden" name="form-name" value="newsletter">
+            <label for="email-topo" class="sr-only">Seu e-mail</label>
+            <input id="email-topo" type="email" name="email" placeholder="Seu e-mail" required>
+            <button type="submit" class="btn btn-claro">Receber artigos</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROVA SOCIAL -->
+    <section class="prova" aria-label="Onde já atuei">
+      <div class="container">
+        <strong>Onde já atuei e palestrei</strong>
+        <span>[EMPRESA 1]</span>
+        <span>[EMPRESA 2]</span>
+        <span>[EVENTO 1]</span>
+        <span>[VEÍCULO DE MÍDIA]</span>
+        <span>[EMPRESA 3]</span>
+      </div>
+    </section>
+
+    <!-- ARTIGOS RECENTES: para cada novo post, adicione um card aqui (os 3 mais recentes) -->
+    <section class="secao" id="posts">
+      <div class="container">
+        <div class="secao-topo">
+          <h2 class="titulo"><span class="destaque">Comece aqui.</span>Artigos recentes</h2>
+          <a href="artigos.html" class="btn btn-contorno">Ver todos os artigos</a>
+        </div>
+        <div class="grade-posts">
+          <a class="card-post" href="artigos/exemplo-de-artigo.html">
+            <img src="img/capa-padrao.svg" alt="">
+            <div>
+              <span class="meta">[DATA] · [TEMA]</span>
+              <h3>[Título do seu primeiro artigo]</h3>
+              <span class="mais">Continuar lendo →</span>
+            </div>
+          </a>
+          <a class="card-post" href="artigos/exemplo-de-artigo.html">
+            <img src="img/capa-padrao.svg" alt="">
+            <div>
+              <span class="meta">[DATA] · [TEMA]</span>
+              <h3>[Título do seu segundo artigo]</h3>
+              <span class="mais">Continuar lendo →</span>
+            </div>
+          </a>
+          <a class="card-post" href="artigos/exemplo-de-artigo.html">
+            <img src="img/capa-padrao.svg" alt="">
+            <div>
+              <span class="meta">[DATA] · [TEMA]</span>
+              <h3>[Título do seu terceiro artigo]</h3>
+              <span class="mais">Continuar lendo →</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PILARES -->
+    <section class="secao" id="pilares" style="padding-top: 0">
+      <div class="container">
+        <div class="secao-topo">
+          <h2 class="titulo"><span class="destaque">Explore por tema.</span>Meus pilares</h2>
+        </div>
+        <div class="grade-pilares">
+          <div class="pilar"><h3>Liderança</h3><p>[Uma frase sobre como você aborda este tema.]</p></div>
+          <div class="pilar"><h3>Inovação</h3><p>[Uma frase sobre como você aborda este tema.]</p></div>
+          <div class="pilar"><h3>Tecnologia &amp; IA</h3><p>[Uma frase sobre como você aborda este tema.]</p></div>
+          <div class="pilar"><h3>Carreira</h3><p>[Uma frase sobre como você aborda este tema.]</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="secao secao-branca" id="sobre">
+      <div class="container sobre">
+        <div class="sobre-foto">
+          <img src="img/foto-sobre.svg" alt="[SEU NOME] palestrando">
+        </div>
+        <div class="sobre-texto">
+          <h2 class="titulo">Sobre <span style="color: var(--azul)">[SEU NOME]</span></h2>
+          <p>[Uma frase que resume sua missão.] [2 a 3 linhas sobre sua trajetória: onde começou, o que construiu, o que move você hoje.]</p>
+          <div class="numeros">
+            <div><strong>[X]+</strong><span>anos em tecnologia</span></div>
+            <div><strong>[X]</strong><span>pessoas lideradas</span></div>
+            <div><strong>[X]</strong><span>palestras e eventos</span></div>
+          </div>
+          <a href="#contato" class="btn btn-contorno">Convide para uma palestra</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section class="newsletter" id="newsletter">
+      <div class="container">
+        <div style="flex: 1 1 460px">
+          <h2>Receba os próximos artigos no seu e-mail.</h2>
+          <p>Um resumo [semanal/mensal] sobre liderança, inovação e tecnologia. Sem spam.</p>
+        </div>
+        <form class="form-email" name="newsletter" method="POST" data-netlify="true">
+          <input type="hidden" name="form-name" value="newsletter">
+          <label for="email" class="sr-only">Seu e-mail</label>
+          <input id="email" type="email" name="email" placeholder="Seu e-mail" required>
+          <button type="submit" class="btn btn-claro">Quero receber</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contato">
+    <div class="container">
+      <span class="logo">[SEU NOME]</span>
+      <nav aria-label="Redes sociais">
+        <a href="https://www.linkedin.com/in/[SEU-USUARIO]">LinkedIn</a>
+        <a href="https://www.instagram.com/[SEU-USUARIO]">Instagram</a>
+        <a href="https://www.youtube.com/@[SEU-USUARIO]">YouTube</a>
+        <a href="mailto:[SEU-EMAIL]">E-mail</a>
+      </nav>
+      <span>© <span id="ano">2026</span> [SEU NOME]</span>
+    </div>
+  </footer>
+
+  <script>document.getElementById('ano').textContent = new Date().getFullYear();</script>
+</body>
+</html>

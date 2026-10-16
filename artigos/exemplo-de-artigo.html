@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>[Título do artigo] · [SEU NOME]</title>
+  <meta name="description" content="[Resumo de uma frase do artigo — aparece no Google e no LinkedIn.]">
+  <meta property="og:title" content="[Título do artigo]">
+  <meta property="og:description" content="[Resumo de uma frase do artigo.]">
+  <meta property="og:image" content="../img/capa-padrao.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <a href="../index.html" class="logo">[SEU NOME]</a>
+      <nav class="nav" aria-label="Principal">
+        <a href="../index.html#sobre">Sobre</a>
+        <a href="../artigos.html">Artigos</a>
+        <a href="../index.html#pilares">Temas</a>
+        <a href="../index.html#contato">Contato</a>
+        <a href="#newsletter" class="btn btn-claro">Newsletter gratuita</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <header class="artigo-topo">
+        <div class="container">
+          <a href="../artigos.html" class="voltar">← Todos os artigos</a>
+          <div class="eyebrow">[TEMA]</div>
+          <h1>[Título do artigo]</h1>
+          <p class="meta">[DATA] · [X] min de leitura</p>
+        </div>
+      </header>
+
+      <div class="artigo-capa">
+        <img src="../img/capa-padrao.svg" alt="[Descrição da imagem]">
+      </div>
+
+      <div class="artigo-corpo">
+        <p>[Primeiro parágrafo: a ideia central do artigo em poucas linhas.]</p>
+
+        <h2>[Subtítulo da primeira parte]</h2>
+        <p>[Desenvolvimento da ideia.]</p>
+
+        <blockquote>[Uma frase de destaque do próprio artigo.]</blockquote>
+
+        <h2>[Subtítulo da segunda parte]</h2>
+        <p>[Desenvolvimento da ideia.]</p>
+
+        <h2>[Conclusão]</h2>
+        <p>[Fechamento e convite para o leitor comentar ou compartilhar.]</p>
+      </div>
+    </article>
+
+    <section class="newsletter" id="newsletter">
+      <div class="container">
+        <div style="flex: 1 1 460px">
+          <h2>Gostou? Receba os próximos no seu e-mail.</h2>
+          <p>Um resumo [semanal/mensal] sobre liderança, inovação e tecnologia. Sem spam.</p>
+        </div>
+        <form class="form-email" name="newsletter" method="POST" data-netlify="true">
+          <input type="hidden" name="form-name" value="newsletter">
+          <label for="email" class="sr-only">Seu e-mail</label>
+          <input id="email" type="email" name="email" placeholder="Seu e-mail" required>
+          <button type="submit" class="btn btn-claro">Quero receber</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <span class="logo">[SEU NOME]</span>
+      <nav aria-label="Redes sociais">
+        <a href="https://www.linkedin.com/in/[SEU-USUARIO]">LinkedIn</a>
+        <a href="https://www.instagram.com/[SEU-USUARIO]">Instagram</a>
+        <a href="https://www.youtube.com/@[SEU-USUARIO]">YouTube</a>
+        <a href="mailto:[SEU-EMAIL]">E-mail</a>
+      </nav>
+      <span>© 2026 [SEU NOME]</span>
+    </div>
+  </footer>
+</body>
+</html>
