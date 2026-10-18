@@ -1,0 +1,9 @@
+# Arquivos do macOS
+.DS_Store
+
+# Atalho local para rodar o site
+abrir-site.command
+
+# Editores
+.vscode/
+.idea/
